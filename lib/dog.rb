@@ -18,7 +18,7 @@ class Dog
 #binding.pry
 
   def self.all
-    @all.each do
+    @@all.each do
       puts name
     end
   end

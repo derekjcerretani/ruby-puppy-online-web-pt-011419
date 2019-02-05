@@ -15,6 +15,8 @@ class Dog
     @@all = []
   end
 
+binding.pry
+
   def self.all
     @@all.each { |name| puts @name }
   end

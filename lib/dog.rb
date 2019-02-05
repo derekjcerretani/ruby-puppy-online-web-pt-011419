@@ -7,7 +7,7 @@ class Dog
   @@all = []
 
   def initialize(name)
-    @name = name
+    @@name = name
     @@all << self
   end
 
@@ -18,7 +18,7 @@ class Dog
 binding.pry
 
   def self.all
-    @@all.each { |name| puts  }
+    @@all.each { |name| puts @@name  }
   end
 
 end

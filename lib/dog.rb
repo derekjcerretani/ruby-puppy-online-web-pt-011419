@@ -21,6 +21,7 @@ class Dog
     @@all.each do
       puts @name
     end
+    binding.pry
   end
 
 end
